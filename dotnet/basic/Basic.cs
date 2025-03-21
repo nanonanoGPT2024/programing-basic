@@ -61,10 +61,9 @@ class Basic
 
     public static void perulangan()
     {
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < 5; i++)
         {
             Console.WriteLine("Iterasi ke - " + i);
-            i++;
         }
     }
 }

@@ -35,7 +35,6 @@ class program
         Console.Write("Masukan Angka : ");
         int angka = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("angka : " + angka);
         if(angka == 1){
             Basic.VariableTypeData();
         } else if (angka == 2) {
